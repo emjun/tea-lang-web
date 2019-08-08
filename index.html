@@ -1,28 +1,18 @@
 ---
+title: Tea | Automated Statistical Analysis
+description: Automatic Statistical Analysis for Non-experts
+permalink: /
 layout: default
-<!-- title:  -->
-notitle: true
+author: Eunice Jun
+summary: Tea is a high-level language for automatically selecting and executing valid statistical analyses based on properties of the data, user assumptions, and hypotheses.
+<!-- image: /index_files/helena.png -->
 ---
 
-<h2>News</h2>
-<ul class="news list-unstyled">
-{% for post in site.posts limit: site.front_page_news %}
-    {% if post.shortnews %}
-        <li class="shortnews">
-            <span class="date">{{ post.date | date_to_long_string }}</span>
-            {{ post.content }}
-        </li>
-    {% else %}
-        <li class="bloglink">
-            <span class="date">{{ post.date | date_to_long_string }}</span>
-            <a href="{{ post.url }}">&raquo; {{ post.title }}</a>
-        </li>
-    {% endif %}
-{% endfor %}
-</ul>
-{% assign numposts = site.posts | size %}
-{% if numposts >= site.front_page_news %}
-<p><a href="{{ site.base }}/blog/">Older posts&hellip;</a></p>
-{% else %}
-<p><a href="{{ site.base }}/oldnews.html">Older news posts&hellip;</a></p>
-{% endif %}
+  <div class="mission">
+   Tea is a high-level language and runtime system for automatically selecting and executing valid statistical analyses.
+  </div>
+
+<p class="centered padded">
+<a id="install" href="/install">Install Tea</a>
+<a id="learn" href="/demonstration">Learn Tea</a>
+</p>

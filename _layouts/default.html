@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112530566-1"></script> -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-112530566-1');
+    </script>
+  
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/scripts/jquery-ui.min.js" ></script>
+
+    <title>{% if page.title %}{{ page.title | escape }} {% else %} Helena: Web Automation for End Users {% endif %}</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <link href="assets/css/jquery-ui.css" rel="stylesheet">
+    <meta name="description" content="Helena is a high-level programming language for web automation and web data collection.  It comes with Rousillon, a programming-by-demonstration (PBD) tool for writing Helena programs.">
+
+
+  <!-- Twitter, Facebook cards -->
+
+  <meta property="og:url"  content="{{ site.url }}{{ page.url }}">
+
+  <meta name="twitter:site"    content="@sarahchasins">
+  <meta name="twitter:creator" content="@sarahchasins">
+
+  <meta name="twitter:title"   content="{{ page.title }}">
+  <meta property="og:title"    content="{{ page.title }}">
+  {% if page.summary %}
+  <meta name="twitter:description" content="{{ page.summary }}">
+  <meta property="og:description"  content="{{ page.summary }}">
+  {% elsif page.excerpt %}
+  <meta name="twitter:description" content="{{ page.excerpt }}">
+  <meta property="og:description"  content="{{ page.excerpt }}">
+  {% else %}
+  <meta name="twitter:description" content="Helena is a high-level programming language for web automation and web data collection.  It comes with Rousillon, a programming-by-demonstration (PBD) tool for writing Helena programs.">
+  <meta property="og:description"  content="Helena is a high-level programming language for web automation and web data collection.  It comes with Rousillon, a programming-by-demonstration (PBD) tool for writing Helena programs.">
+  {% endif %}
+
+  {% if page.image %}
+  <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+  <meta property="og:image"  content="{{ site.url }}{{ page.image }}">
+  {% else %}
+  <meta name="twitter:image" content="{{ site.url }}{{ site.title_image }}">
+  <meta property="og:image"  content="{{ site.url }}{{ site.title_image }}">
+  {% endif %}
+   
+ 
+  <!-- end of Twitter, Facebook cards -->
+
+
+
+  </head>
+    <body>
+      <div id="main">
+
+        <div class="header">
+          <div class="pull-right">
+            <!-- <a href="https://eecs.berkeley.edu/" title="UC Berkeley EECS"><img src="./index_files/uc-berkeley-logo.png" height="21px" target="_blank"></a> &nbsp;
+            <a href="https://uwplse.org/" title="UW PLSE"><img src="./index_files/uw-plse-logo.png" height="20px" target="_blank"></a> -->
+          </div>
+          <a href="/" class="nounderline">
+          <div class="mark">
+            <!-- <span class="uw">Helena</span> -->
+          </div>
+          <!-- <div id="title">Web Automation for End Users</div> -->
+          </a>
+          <br>
+        </div>
+        <div class="content">
+
+          {{ content }}
+
+        <div class="footer">
+          <!-- Edit this page at <a href="https://github.com/schasins/helena/tree/master/docs" target="_blank">https://github.com/schasins/helena/tree/master/docs</a>. -->
+        </div>
+      </div>
+    
+
+</body></html>
+
