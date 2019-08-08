@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Tea
 
-You can use the [editor on GitHub](https://github.com/emjun/tea-lang-web/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Tea is a high-level language and runtime system for automating statistical test selection and execution. 
 
 ### Markdown
 
