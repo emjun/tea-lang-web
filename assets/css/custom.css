@@ -15,7 +15,20 @@ body {
     margin-top: 9px;
   }
 
-.uw {
-    font-weight: 500;
-    color: #652c90;
+.title{
+    font-weight: bold;
+    font-size: 20px
+}
+
+
+a {
+    color: #8a5ed3;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  .nounderline {
+    text-decoration: none !important;
   }
