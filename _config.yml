@@ -1,0 +1,14 @@
+# global settings
+title: "Tea"
+description: "Automated Statistical Analysis"
+url: "http://tea-lang.org" 
+
+# build settings
+exclude: ["readme.md"]
+
+sass:
+  # Where you keep your scss files
+  sass_dir: assets/css/
+
+plugins:
+  - jekyll-redirect-from
