@@ -11,4 +11,4 @@ sass:
   sass_dir: assets/css/
 
 plugins:
-  - jekyll-redirect-from
+  # - jekyll-redirect-from # Comment this out when want to debug/run
