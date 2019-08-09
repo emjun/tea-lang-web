@@ -1,6 +1,21 @@
+#main {
+    width: 800px;
+    margin: auto;
+  }
+
 body {
     font-family: 'Roboto', 'Helvetica Neue', 'Arial';
     padding-left: 12px;
     padding-top: 8px;
     text-decoration-skip: ink;
+  }
+
+  .pull-right {
+    float:right;
+    margin-top: 9px;
+  }
+
+.uw {
+    font-weight: 500;
+    color: #652c90;
   }
