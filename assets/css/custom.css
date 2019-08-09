@@ -1,5 +1,5 @@
 #main {
-    width: 800px;
+    width: 730px;
     margin: auto;
   }
 
@@ -23,27 +23,31 @@ body {
   padding: 5px;
 }
 
-.title{
+.title {
     font-family: 'Merriweather';
     font-weight: bolder;
     font-size: 60px;
 }
 
-.title-sub{
+.title-sub {
   color: #000000;
   font-weight: lighter;
   font-size: 25px
 }
 
-.lead{
+.lead {
   /* font-family: 'Merriweather'; */
   font-weight: bold;
   font-size: 30px
 }
 
-.code{
+.code {
   font-family: 'Merriweather';
   font-weight: bold
+}
+
+.stand-out {
+  font-style: italic
 }
 
 a {
